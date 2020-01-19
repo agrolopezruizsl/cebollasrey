@@ -6,9 +6,42 @@
  * Made By MaterializeCSS.com
  */
 
+.container.padded{
+  padding-top: 80px;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+p {
+  font-size: 16px;
+}
+
+div.frase {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 100px;
+  opacity: 50%;
+}
+
+span.frase {
+  margin: auto;
+}
+
+.video-cut {
+  max-height: 840px;
+  overflow: hidden;
+}
+
+video.background {
+  width: 100%;
+  height: auto;
 }
